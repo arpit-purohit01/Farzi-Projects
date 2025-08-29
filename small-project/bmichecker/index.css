@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+    color: white;
+}
+
+.navigation {
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    width: 100vw;
+}
+
+.navigation button {
+    width: 8em;
+    height: 3em;
+}
+
+h1 {
+    margin: 0.2em 1em;
+}
+
+.container {
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.marginc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+}
+
+#submit {
+    width: 15vw;
+    height: 4vh;
+}
+
+.subdiv {
+    justify-self: center;
+}
+
+.info {
+    margin-top: 5em;
+}
+
+h4 {
+    text-align: center;
+}
+
+.result {
+    text-align: center;
+}
