@@ -1,0 +1,44 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #212121;
+   color: white;
+}
+
+.navigation {
+   background-color: #eaeaea;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 7vh;
+   width: 100vw;
+}
+
+.navigation button {
+   width: 8em;
+   height: 3em;
+}
+
+h1 {
+   margin: 0.2em 1em;
+}
+
+.btndiv {
+   display: flex;
+   width: 80vw;
+   height: 80vh;
+   justify-content: center;
+   gap: 10vw;
+   align-items: center;
+}
+
+button {
+   width: 7vw;
+   height: 3vh;
+   font-size: 1.1em;
+   font-weight: 600;
+}
